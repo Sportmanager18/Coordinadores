@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sportmanager.pbvallirana" version="0.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
-    <name>Sport Manager</name>
-    <description>Aplicacion de F.C.Vallirana</description>
-    <author email="sportsmanagerb@gmail.com" href="http://ionicframework.com/">Andaw entretainment</author>
+<widget id="com.sportmanager.pbvalliranacoordinadores" version="0.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
+    <name>Sport Manager Coordinadores</name>
+    <description>Aplicacion de Coordinadores del F.C.Vallirana</description>
+    <author email="sportsmanagerb@gmail.com" href="http://ionicframework.com/">Sports manager entretainment</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
