@@ -1,0 +1,19 @@
+page-login {
+
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scroll-content {
+        overflow-y: hidden;
+    }
+
+    .list-ios > .item-block:first-child,
+    .item-block:first-child {
+        border-top: none;
+    }
+
+}
+

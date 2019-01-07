@@ -1,0 +1,33 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="form-container">
+    <img src="assets/imgs/logo.jpg" alt="logo-vallirana" />
+    <form (ngSubmit)="loginFormListener()">
+      <ion-list class="input-container">
+        <ion-item class="input-wrapper">
+          <ion-label floating>Equipo ej.(AlevinA)</ion-label>
+          <ion-input [(ngModel)]="todo.email" type="email" name="email" required></ion-input>
+        </ion-item>
+        <ion-item class="input-wrapper">
+          <ion-label floating>Contraseña</ion-label>
+          <ion-input [(ngModel)]="todo.password" type="password" name="password" required></ion-input>
+        </ion-item>
+      </ion-list>
+      <button ion-button type="submit" block>Iniciar Sesion</button>
+    </form>
+  </div>
+</ion-content>

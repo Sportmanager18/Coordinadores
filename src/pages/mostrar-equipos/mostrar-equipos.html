@@ -1,0 +1,50 @@
+<!--
+  Generated template for the MostrarEquiposPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Ver Asistencias
+    <img src="assets/imgs/logosf.png"/>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <h4>Para ver los datos seleccione un Eqipo y la informacion que quiere ver</h4>
+  <form [formGroup]="infor" (ngSubmit)="buscarinformacion(infor)">
+    <div class="infor">
+        <ion-item>
+            <ion-select formControlName="Equipo" name="Equipo" required>
+              <ion-label >Seleccione Equipo</ion-label>
+              <ion-option *ngFor="let equipo of equipos" >{{ equipo.nombre }}</ion-option>
+            </ion-select>
+        </ion-item>
+      <ion-item>
+          <ion-select formControlName="Jugador" name="Jugador" required>
+            <ion-label >Seleccione Equipo</ion-label>
+            <ion-option *ngFor="let equipo of equipos" >{{ equipo.nombre }}</ion-option>
+          </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-select formControlName="Tipo" name="Tipo" required>
+          <ion-label >Seleccione informacion</ion-label>
+          <ion-option>Incidencias</ion-option>
+          <ion-option>Asistencias</ion-option>
+          <ion-option>Minutos</ion-option>
+          <ion-option>Descripcion</ion-option>
+        </ion-select>
+      </ion-item>
+    </div>
+    <button ion-button type="submit">Buscar</button>
+  </form>
+  <div *ngFor="let valor of valor" id="informacion">
+      <p>{{valor.nombre}}/{{valor.tipo}}</p>
+  </div>
+</ion-content>

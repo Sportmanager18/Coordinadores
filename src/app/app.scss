@@ -1,0 +1,133 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.form-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-container form {
+  width: 100%;
+}
+
+.input-wrapper {
+  padding: 0;
+}
+.menu-inner > ion-header {
+  position: relative;
+}
+.menu-inner .header .toolbar-md {
+  padding: 10px 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.menu-inner .header-ios .toolbar-ios {
+  flex-direction: column;
+}
+
+.toolbar-ios ion-title {
+  position: relative;
+  height: auto;
+  text-align: left;
+}
+
+.toolbar-title-md {
+  padding: 0;
+}
+
+.toolbar-background {
+  background-color: #124270;
+}
+
+.toolbar-title,
+.button-inner {
+  color: white;
+}
+
+.menu-inner .header img {
+  max-width: 40%;
+  border-radius: 50px;
+}
+
+.menu-inner .header .title {
+  margin: 10px 0px;
+}
+
+.menu-inner button {
+  color: #135187;
+}
+
+.menu-inner .list-md .item-block .item-inner {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.ion-page .header .toolbar-background {
+  background-color: #0d7dc5;
+}
+.alert-md .alert-button-group .button-inner{
+  color:black;
+}
+
+.toolbar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar-title img {
+  width:50px;
+  height: 50px;
+}
+#informacion{
+  text-align:center;
+}
+h5{
+  text-align:center;
+}
+.incidencia{
+  box-shadow: 2px 5px #b2b2b2;
+  background-color:#fc6f6f;
+  padding:5px;
+}
+.minutos{
+  box-shadow: 2px 5px #b2b2b2;
+  background-color:#f4c366;
+  font-weight: 700;
+  padding:5px;
+}
+.asistencia{
+  box-shadow: 2px 5px #b2b2b2;
+  background-color:#f4c366;
+  font-weight: 700;
+  padding:5px;
+}
+.partido{
+  box-shadow: 2px 5px #b2b2b2;
+  background-color:#f4c366;
+  margin-top:10px;
+}
+.partidos{
+  font-weight: 700;
+}
+.descripcion{
+  box-shadow: 2px 5px #b2b2b2;
+  background-color:#1f8b37;
+  font-weight: 700;
+  padding:5px;
+}
